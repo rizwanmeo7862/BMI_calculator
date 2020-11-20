@@ -1,5 +1,5 @@
-name: dropdown_button
-description: Implementation of DropdownButton
+name: enabling_splash_screen
+description: Splash screen in a flutter project
 
 dependencies:
   flutter:
