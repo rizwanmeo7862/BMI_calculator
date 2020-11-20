@@ -1,22 +1,18 @@
 import 'package:flutter/material.dart';
-import 'package:project/home.dart';
+import 'package:quizstar/splash.dart';
 
-void main() {
-  runApp(MyApp());
-}
+void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
-  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Bottom Sheet',
+      debugShowCheckedModeBanner: false,
+      title: "Quizstar",
       theme: ThemeData(
-        primarySwatch: Colors.red,
-        visualDensity: VisualDensity.adaptivePlatformDensity,
+        primarySwatch: Colors.indigo,
       ),
-      home: MyHomePage(title: 'Bottom Sheet'),
+      home: splashscreen(),
     );
   }
 }
-
